@@ -1,0 +1,42 @@
+/*/////#6C7789 logo color, color for header of inside form,. text color///////*/
+/*/////#6C7789 arrow left and hover over button, underline of secondary nav tab, second wheel///////*/
+/*////#49BBBF graph and first wheel color////////////*/
+/*////#AF72B0 third wheel color/////////*/
+/*////#3B475A aside background color*/
+
+html {
+
+}
+
+header {
+  display: grid;
+  grid-template-columns: 95px 1fr 95px 95px 95px;
+  grid-column: 2;
+  background-color: blue;
+  height: 50px;
+  width: auto;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 208px 1fr;
+  background-color: green;
+  margin: 0px
+  height:;
+}
+
+.aside {
+  grid-column: 1;
+  width: 208px;
+  height: auto;
+  background-color: #3B475A;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 95px 1fr 95px 95px 95px;
+  grid-column: 2;
+  background-color: blue;
+  height: 50px;
+  width: auto;
+}
