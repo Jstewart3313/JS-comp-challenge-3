@@ -2,56 +2,93 @@
 <html lang=en>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto:400,900" rel="stylesheet"> 
   <title>DashBoard</title>
 </head>
 <body>
   <aside class='aside' role='aside'>
     <section class='profile-aside'>
-      <img class='profile-pic' src=''>
-      <p></p>
+      <img class='profile-pic' src='assets/profile-man.jpg'>
+      <p class='name-text'>Newton Barley <i class="fas fa-angle-down down"></i></p>
     </section>
-    <section class='main-aside'>
-      <p></p>
+    <section class='aside-sub'>
+      <p class='aside-title'>Main</p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><i class="fas fa-home aside-icon"></i>Home</li>
+        <li><i class="fas fa-suitcase aside-icon"></i>Job</li>
+        <li><i class="fas fa-file aside-icon"></i>Resume</li>
+        <li><i class="fas fa-clipboard aside-icon"></i>Tasks</li>
+        <li><i class="fas fa-calendar-alt aside-icon"></i>Calendar</li>
       </ul>
     </section>
-    <section class='admin-aside'>
-      <p></p>
+    <section class='aside-sub'>
+      <p class='aside-title'>Admin</p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><i class="fas fa-user-friends aside-icon"></i>Users</li>
+        <li><i class="fas fa-map-marker-alt aside-icon"></i>Locations</li>
+        <li><i class="fas fa-code-branch aside-icon"></i>Workflows</li>
+        <li><i class="fas fa-clipboard-list aside-icon"></i>Job Boards</li>
+        <li><i class="fas fa-share-square aside-icon"></i>Social</li>
       </ul>
     </section>
-    <section class='categories-aside'>
-      <p></p>
+    <section class='aside-sub'>
+      <p class='aside-title'>Categories</p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><i class="fas fa-check-square aside-icon yellow"></i>Administrative</li>
+        <li><i class="fas fa-square aside-icon blue"></i>Design</li>
+        <li><i class="fas fa-square aside-icon red"></i>Executive</li>
+        <li><i class="fas fa-square aside-icon green"></i>Resources</li>
       </ul>
+    </section>
+    <section class='rest-of-aside'>
     </section>
   </aside>
-    <header>
-    <section class='hamburger'>
+<main class='main'>
+  <header>
+    <section class='nav-box'>
+      <i class="fas fa-caret-left"></i>
+      <i class="fas fa-bars aside-icon"></i> 
     </section>
-    <section class='search'>
+    <section class='search-icon-box'>
+      <img class='search-icon' src='assets/search.svg'>
     </section>
-    <section class='friend'>
+    <input type='text' placeholder='Search for a job, task, or resume' class='search-box'>
+    </input>
+    <section class='nav-box'>
+      <i class="fas fa-user-friends friends"></i>
     </section>
-    <section class='events'>
+    <section class='nav-box'>
+      <i class="fas fa-calendar-alt friends"></i>
     </section>
-    <section class='dots'>
+    <section class='nav-box'>
+      <i class="fas fa-ellipsis-h friends"></i>
     </section>
   </header>
-
+  <section class='top-section'>
+    <section class='main-h1'>
+    <h1>Customer Service Representative</h1>
+    <p class='location'><i class="fas fa-map-marker-alt main-location"></i> San Francisco, CA</p>
+    </section>
+    <section class='btn-section'>
+      <button class='open-btn txt-bold'><i class="fas fa-circle green-dot"></i>open</button>
+      <button class='round-btn'><i class="fas fa-bookmark"></i></button>
+      <button class='round-btn'><i class="fas fa-pencil-alt"></i></button>
+      <button class='round-btn'><i class="fas fa-gift"></i></button>
+    </section>
+  </section>
+  <section class='nav-section'>
+    <button class='nav-btn'>Summary</button>
+    <button class='nav-btn'>Applicants</button>
+    <button class='nav-btn'>Job Boards</button>
+    <button class='nav-btn'>Interviews</button>
+    <button class='nav-btn'>Activity</button>
+    <button class='nav-btn'>Broadcast</button>
+    <button class='nav-btn'>Notifications</button>
+  </section>
+  <section class='graph-section'>
+    
+  </section>
+</main>
 </body>
 </html>
