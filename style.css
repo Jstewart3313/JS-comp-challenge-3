@@ -181,6 +181,15 @@ h1 {
   color: #6C7789;
 }
 
+.preview {
+  margin-left: 5px;
+  color: #01AAEF;
+}
+
+.preview-dot {
+  font-size: 10px;
+}
+
 .main-location {
   height: 15px;
   width: 15px;
@@ -415,8 +424,9 @@ h1 {
 
 .bottom-section {
   display: grid;
-  grid-template-columns: 1fr 35%;
-  height: 1000px;
+  grid-template-columns: 1fr 31%;
+  grid-column-gap: 45px;
+  height: 940px;
   padding-left: 3rem;
   padding-top: 3rem;
 }
@@ -499,6 +509,65 @@ h1 {
   display: flex;
   align-items: flex-start;
   padding-top: 1rem;
+}
+
+.hiring-lead {
+  height: 44px;
+  border-radius: 49px;
+  width: 43px;
+}
+
+.tom {
+  margin-left: 10px;
+}
+
+.social-section {
+  grid-column: 2;
+  background-color: blue;
+  margin-right: 50px;
+  height: 900px;
+}
+
+.quarter-section {
+  height: 25%;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  width: 100%;
+  height: 55px;
+  padding: 0px;
+  border: 0px;
+  background-color: #4A6FC0;
+  margin-bottom: 17px;
+}
+
+.twitter-btn {
+    background-color: #01AAEF;
+}
+
+.linkd-btn {
+      background-color: #01AAEF;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: flex-start;
+  grid-column: 1;
+  padding-left: 29px;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.name-div {
+  display: flex;
+  justify-content: flex-start;
+  grid-column: 2;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
 }
 
 
