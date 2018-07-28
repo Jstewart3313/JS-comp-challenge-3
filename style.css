@@ -242,7 +242,7 @@ h1 {
   height: 86px;
   grid-column: 2;
   background-color: #FFFFFF;
-  padding-left: 3rem;
+  padding-left: 21px;
 }
 
 .nav-btn {
@@ -262,7 +262,107 @@ h1 {
   border-bottom-color: #16A4FA;
 }
 
+.graph-section {
+  display: grid;
+  grid-template-columns: 55% 1fr;
+  background-color: #EDF2F6;
+  height: 325px;
+  padding-top: 28px;
+  padding-left: 1.5rem;
+}
 
+.circle-section {
+  grid-column: 1;
+  padding-top: 20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 217px;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 190px;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #DBE4EB;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #48B7C0;
+}
+
+.circular-chart.green .circle {
+  stroke: #16A4FA;
+}
+
+.circular-chart.blue .circle {
+  stroke: #AE6EAA;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: .2em;
+  text-anchor: middle;
+}
+
+.bars {
+  margin-right: 10px;
+  width: 90%;
+  /*height: 237px;*/
+}
+
+.bar-graph--btn {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #6C7789;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  line-height: 35px;
+  width: 145px;
+  opacity: .4;
+  font-color: #6C7789;
+  margin-left: 177px;
+  margin-top: 14px;
+}
+
+.total-section {
+  display: flex;
+  justify-content: center;
+}
+
+.total {
+  margin-left: 34%;
+  width: 175px;
+}
 
 
 @media screen and (max-width: 1186px) {
@@ -273,7 +373,18 @@ h1 {
   .aside {
     display: none;
   }
+
+/*  .total {
+    margin-top: 53px;
+  }*/
+
 }
+
+/*@media screen and (max-width: 1064px) {
+  .bar-graph--section {
+    grid-column: 1;
+  }
+}*/
 
 
 
