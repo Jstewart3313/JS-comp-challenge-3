@@ -173,6 +173,7 @@ header {
 
 h1 {
   margin-bottom: 4px;
+  font-size: 1.5em;
   color: #6C7789;
 }
 
@@ -523,13 +524,21 @@ h1 {
 
 .social-section {
   grid-column: 2;
-  background-color: blue;
   margin-right: 50px;
   height: 900px;
 }
 
 .quarter-section {
   height: 25%;
+}
+
+.border-btm {
+  border-bottom: solid 2px #6C7789;
+  height: 23%;
+}
+
+.widget {
+  height: 26%;
 }
 
 .social {
@@ -568,6 +577,37 @@ h1 {
   font-weight: 900;
   font-size: 14px;
   color: #FFFFFF;
+}
+
+.link-p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  color: #6C7789;
+  width: 100%;
+}
+
+.job-url {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  height: 50px;
+  padding-left: 10px;
+  color: #6C7789;
+}
+
+.copy-btn {
+  height: 50px;
+  border: transparent;
+  width: 70px;
+  background-color: #49BBBF;
+  color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+
+.widget {
+  height: 200px;
 }
 
 
