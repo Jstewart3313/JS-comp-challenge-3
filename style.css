@@ -288,6 +288,7 @@ h1 {
 
 .flex-wrapper {
   display: flex;
+  align-items: center;
   flex-flow: row nowrap;
   height: 217px;
 }
@@ -302,6 +303,8 @@ h1 {
   margin: 10px auto;
   max-width: 190px;
   max-height: 250px;
+  min-height: 50px;
+  min-width: 50px;
 }
 
 .circle-bg {
@@ -633,6 +636,11 @@ h1 {
     grid-column: 1;
   }
 
+  .bar-graph--btn{
+    margin-left: 40%;
+    margin-top: 3rem;
+  }
+
   .graph-section {
     height: 626px;
     display: unset;
@@ -641,7 +649,7 @@ h1 {
 
   .bars {
   margin-right: 3px;
-  margin-left: 3rem;
+  margin-left: 5%;
   width: 90%;
   height: 329px;
   }
@@ -738,24 +746,120 @@ h1 {
     height: 40px;
     width: 222px;
   }
-/*
-  .resize {
-    height: 60px;*/
-  }
 }
 
 @media screen and (max-width: 592px) {
-  h1 {
+  .service-rep {
     margin-top: 0px;
     font-size: 1em;
-
   }
 
   .top-section {
-    padding-left: 0rem;
-    margin
+    padding-left: none;
   }
 }
+
+
+@media screen and (max-width: 574px){
+
+  .flex-wrapper {
+    flex-flow: column;
+  }
+
+  .circle-section {
+    height: 39rem;
+  }
+
+  .bar-graph--btn {
+    display: none;
+    margin-left: 34%;
+  }
+
+  .right-circ {
+    padding-right: 0px;
+  }
+
+  .left-circ {
+    padding-left: 0px;
+  }
+}
+
+
+@media screen and (max-width:562px) {
+  .gone {
+    display: none;
+  }
+
+  .not {
+    display: none;
+  }
+  .resize {
+  display: none;
+  }
+
+  .top-section {
+    grid-template-columns: 1fr 100px;
+  }
+
+  .btn-section {
+    width: 70px;
+  }
+  
+    .nav-section {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .bro {
+    display: none;
+  }
+
+  .left-column--form {
+    font-size: .7em;
+  }
+
+  .right-column--form {
+    font-size: .7em;
+  }
+
+    .nav-section {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 435px){
+  .circle-section {
+    height: 36rem;
+  }
+
+  .bar {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 394px){
+  .act {
+    display: none;
+  }
+    .nav-section {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 435px){
+  .circle-section {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .circle-section {
+    height: 24rem;
+  }
+}
+
+
 
 
 
