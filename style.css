@@ -37,13 +37,13 @@ body {
 }
 
 .profile-pic {
-  height: 70px;
-  width: 70px;
-  border-radius: 35px;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
 }
 
 .name-text {
-  margin-top: 37px;
+  margin-top: 15px;
 }
 
 .down {
@@ -73,13 +73,25 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.highlight {
+  color: #FFFFFF;
+  background-color: #30394A;
+  border-left: solid 3px #16A4FA;
 }
 
 .aside-icon {
   margin-right: 10px;
   height:15px;
   width: 15px;
+  margin-left: 40px;
+}
 
+.hamburg {
+  margin-left: 0px;
 }
 
 .yellow {
@@ -116,10 +128,21 @@ header {
   align-items: center;;
 }
 
-.hamburger-box:hover {
+.nav-box:hover {
+  background-color: #16A4FA;
+}
+
+.nav-box:hover .fa-bars {
   color: #FFFFFF;
 }
 
+.nav-box:hover .lefty {
+  color: #FFFFFF;
+}
+
+.nav-box:hover .friends {
+  color: #FFFFFF;
+}
 
 .fa-caret-left {
   height: 8px;
@@ -150,6 +173,7 @@ header {
   grid-column: 3;
   border-style: solid;
   border-width: 1px;
+  color: #6C7789;
   border-color: #EDF2F6;
   font-size: 1.25em;
   padding-left: 10px;
@@ -218,8 +242,13 @@ h1 {
   font-color: #6C7789;
 }
 
+.open-btn:hover {
+  opacity: 1;
+}
+
 .txt-bold {
   font-weight: 900;
+  font-size: .9em;
 }
 
 .green-dot {
@@ -245,6 +274,10 @@ h1 {
   font-size: .9em;
 }
 
+.round-btn:hover {
+  opacity: 1;
+}
+
 .nav-section {
   display: flex;
   justify-content: flex-start;
@@ -266,6 +299,10 @@ h1 {
   font-weight: 900;
   font-size: 1em;
   color: #6C7789;
+}
+
+.border {
+  border-bottom-color: #16A4FA ;
 }
 
 .nav-btn:hover {
@@ -342,7 +379,12 @@ h1 {
   fill: #666;
   font-family: sans-serif;
   font-size: .2em;
+  font-weight: 400;
   text-anchor: middle;
+}
+
+.number {
+  font-size: .5em;
 }
 
 .bars {
@@ -365,6 +407,14 @@ h1 {
   font-color: #6C7789;
   margin-left: 177px;
   margin-top: 14px;
+}
+
+.bar-graph--btn:hover {
+  opacity: 1;
+}
+
+.bar-btn {
+  margin-top: 10px;
 }
 
 .total-section {
@@ -561,7 +611,7 @@ h1 {
 }
 
 .linkd-btn {
-      background-color: #01AAEF;
+      background-color: #0381BC;
 }
 
 .icon-div {
@@ -804,9 +854,14 @@ h1 {
   .btn-section {
     width: 70px;
   }
-  
+
     .nav-section {
     padding-left: 0px;
+  }
+
+  .open-btn {
+    margin-top: 82px;
+    line-height: unset;
   }
 }
 
