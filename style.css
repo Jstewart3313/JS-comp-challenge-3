@@ -1,45 +1,38 @@
-/*/////#6C7789 logo color, color for header of inside form,. text color///////*/
-/*/////#16A4FA arrow left and hover over button, underline of secondary nav tab, second wheel///////*/
-/*////#49BBBF graph and first wheel color////////////*/
-/*////#AF72B0 third wheel color/////////*/
-/*////#3B475A aside background color///////////*/
-/*////#EDF2F6 background of graph section///////////*/
-
-html {
-
-}
-
 body {
-  display: grid;
-  grid-template-columns: 210px 1fr;
   background-color: #EDF2F6;
+  display: grid;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
-  margin: 0;
+  grid-template-columns: 210px 1fr;
   height:;
+  margin: 0;
 }
 
+/*====================
+=====aside styling====
+======================*/
+
 .aside {
-  grid-column: 1;
-  width: 210px;
-  height: auto;
   background-color: #3B475A;
   color: #6C7789;
+  grid-column: 1;
+  height: auto;
+  width: 210px;
 }
 
 .profile-aside {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
   height: 170px;
+  justify-content: center;
+  padding-top: 20px;
 }
 
 .profile-pic {
+  border-radius: 45px;
   height: 90px;
   width: 90px;
-  border-radius: 45px;
 }
 
 .name-text {
@@ -56,14 +49,14 @@ body {
 }
 
 .aside-sub {
-  line-height: 2.5rem;
-  padding-top: .5rem;
-  border-style: solid;
   border-bottom: 2px;
-  border-top: ;
+  border-color: #343F51;
   border-left: none;
   border-right: none;
-  border-color: #343F51;
+  border-style: solid;
+  border-top: ;
+  line-height: 2.5rem;
+  padding-top: .5rem;
 }
 
 .rest-of-aside {
@@ -78,16 +71,16 @@ ul {
 }
 
 .highlight {
-  color: #FFFFFF;
   background-color: #30394A;
   border-left: solid 3px #16A4FA;
+  color: #FFFFFF;
 }
 
 .aside-icon {
-  margin-right: 10px;
   height:15px;
-  width: 15px;
+  margin-right: 10px;
   margin-left: 40px;
+  width: 15px;
 }
 
 .hamburg {
@@ -110,22 +103,26 @@ ul {
   color: #27AFFA;
 }
 
+/*=============================
+=============header styling====
+===============================*/
+
 header {
+  background-color: #FFFFFF;
   display: grid;
   grid-template-columns: 95px 55px 1fr 95px 95px 95px;
   grid-column: 2;
-  background-color: #FFFFFF;
   height: 85px;
   width: auto;
 }
 
 .nav-box {
+  align-items: center;;
+  border-color: #EDF2F6;
   border-style: solid;
   border-width: 1px;
-  border-color: #EDF2F6;
   display: flex;
   justify-content: center;
-  align-items: center;;
 }
 
 .nav-box:hover {
@@ -145,24 +142,24 @@ header {
 }
 
 .fa-caret-left {
-  height: 8px;
   color: #16A4FA;
   font-size: .1.25em;
+  height: 8px;
   margin-right: 2px;
 }
 
 .fa-bars {
-  font-size: 1.5em;
   color: #6C7789;
+  font-size: 1.5em;
 }
 
 .search-icon-box {
+  align-items: center;
+  border-bottom: solid 1px #EDF2F6;
+  border-right: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
-  border-right: none;
-  border-bottom: solid 1px #EDF2F6;
 }
 
 .search-icon {
@@ -170,45 +167,50 @@ header {
 }
 
 .search-box {
-  grid-column: 3;
+  border-color: #EDF2F6;
+  border-left: none;
   border-style: solid;
   border-width: 1px;
   color: #6C7789;
-  border-color: #EDF2F6;
   font-size: 1.25em;
+  grid-column: 3;
   padding-left: 10px;
-  border-left: none;
 }
 
 .friends {
-  height: 40px;
   color: #6C7789;
   font-size: 2em;
+  height: 40px;
 }
 
+
+/*========================
+==styling of top section==
+==========================*/
+
 .top-section {
+  background-color: #FFFFFF;
   display: grid;
   grid-template-columns: 1fr 325px;
   height: 80px;
-  background-color: #FFFFFF;
   padding-left: 3rem;
   padding-top: 44px;
 }
 
 h1 {
+  color: #6C7789;
   margin-bottom: 4px;
   font-size: 1.5em;
-  color: #6C7789;
 }
 
 .location {
-  margin-top: 5px;
   color: #6C7789;
+  margin-top: 5px;
 }
 
 .preview {
-  margin-left: 5px;
   color: #01AAEF;
+  margin-left: 5px;
 }
 
 .preview-dot {
@@ -216,30 +218,30 @@ h1 {
 }
 
 .main-location {
+  color: #6C7789;
   height: 15px;
   width: 15px;
-  color: #6C7789;
 }
 
 .btn-section {
-  grid-column: 2;
-  display: flex;
   align-items: center;
+  display: flex;
+  grid-column: 2;
   justify-content: space-between;
-  padding-left: 7px;
   margin-right: 32px;
+  padding-left: 7px;
 }
 
 .open-btn {
-  border-style: solid;
-  border-width: 2px;
+  background-color: #FFFFFF;
   border-color: #6C7789;
   border-radius: 30px;
-  background-color: #FFFFFF;
-  line-height: 40px;
-  width: 90px;
-  opacity: .4;
+  border-style: solid;
+  border-width: 2px;
   font-color: #6C7789;
+  line-height: 40px;
+  opacity: .4;
+  width: 90px;
 }
 
 .open-btn:hover {
@@ -247,31 +249,31 @@ h1 {
 }
 
 .txt-bold {
-  font-weight: 900;
   font-size: .9em;
+  font-weight: 900;
 }
 
 .green-dot {
-  font-size: .9em;
   color: #8AC12F;
+  font-size: .9em;
   margin-right: 3px;
 }
 
 .ribbon-section {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .round-btn {
-  border-style: solid;
-  border-radius: 30px;
-  border-width: 2px;
-  border-color: #6C7789;
   background-color: #FFFFFF;
+  border-color: #6C7789;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
   opacity: .4;
-  width: 40px;
-  height: 40px;
   font-size: .9em;
+  height: 40px;
+  width: 40px;
 }
 
 .round-btn:hover {
@@ -279,26 +281,26 @@ h1 {
 }
 
 .nav-section {
-  display: flex;
-  justify-content: flex-start;
   align-items: flex-end;
-  height: 86px;
-  grid-column: 2;
   background-color: #FFFFFF;
+  display: flex;
+  grid-column: 2;
+  height: 86px;
+  justify-content: flex-start;
   padding-left: 21px;
 }
 
 .nav-btn {
   background-color: #FFFFFF;
+  border-color: transparent;
   border-style: solid;
   border-width: 2px;
-  border-color: transparent;
+  color: #6C7789;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  font-weight: 900;
   height: 53px;
   width: 8rem;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
-  font-size: 1em;
-  color: #6C7789;
 }
 
 .border {
@@ -309,10 +311,15 @@ h1 {
   border-bottom-color: #16A4FA;
 }
 
+
+/*==========================
+========styling of graphs===
+============================*/
+
 .graph-section {
+  background-color: #EDF2F6;
   display: grid;
   grid-template-columns: 55% 1fr;
-  background-color: #EDF2F6;
   height: 325px;
   padding-top: 28px;
   padding-left: 1.5rem;
@@ -324,22 +331,22 @@ h1 {
 }
 
 .flex-wrapper {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-flow: row nowrap;
   height: 217px;
 }
 
 .single-chart {
-  width: 33%;
   justify-content: space-around ;
+  width: 33%;
 }
 
 .circular-chart {
   display: block;
   margin: 10px auto;
-  max-width: 190px;
   max-height: 250px;
+  max-width: 190px;
   min-height: 50px;
   min-width: 50px;
 }
@@ -351,10 +358,10 @@ h1 {
 }
 
 .circle {
-  fill: none;
-  stroke-width: 2.8;
-  stroke-linecap: round;
   animation: progress 1s ease-out forwards;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 2.8;
 }
 
 @keyframes progress {
@@ -389,24 +396,24 @@ h1 {
 
 .bars {
   margin-right: 10px;
-  width: 90%;
   height: 237px;
+  width: 90%;
 }
 
 .bar-graph--btn {
-  border-style: solid;
-  border-width: 2px;
+  background-color: #FFFFFF;
   border-color: #6C7789;
   border-radius: 30px;
-  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 2px;
+  font-color: #6C7789;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
   line-height: 35px;
-  width: 145px;
-  opacity: .4;
-  font-color: #6C7789;
   margin-left: 177px;
   margin-top: 14px;
+  opacity: .4;
+  width: 145px;
 }
 
 .bar-graph--btn:hover {
@@ -428,36 +435,36 @@ h1 {
 }
 
 .page-break {
-  height: 30px;
   background-color: #EDF2F6;
+  height: 30px;
   margin-left: 3rem;
   margin-right: 4rem;
 }
 .page-break {
   display: block;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
   white-space: nowrap; 
 }
 
 .page-break > span {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
   
 .page-break > span:before, .page-break > span:after {
+  background: #6C7789;
   content: "";
   position: absolute;
+  height: 2px;
+  opacity: .7;
   top: 50%;
   width: 9999px;
-  height: 2px;
-  background: #6C7789;
-  opacity: .7;
 }
 
 .page-break > span:before {
-  right: 100%;
   margin-right: 15px;
+  right: 100%;
 }
 
 .page-break > span:after {
@@ -466,19 +473,23 @@ h1 {
 }
 
 .break-btn {
-  border-style: solid;
-  border-width: 2px;
+  background-color: #FFFFFF;
   border-color: #6C7789;
   border-radius: 30px;
-  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 2px;
   color: #6c7789;
-  opacity: .7;
   height: 29px;
+  opacity: .7;
 }
 
 .break-btn:hover {
   opacity: 1;
 }
+
+/*===================
+===styling of form==
+=====================*/
 
 .bottom-section {
   display: grid;
@@ -490,43 +501,43 @@ h1 {
 }
 
 .description-form {
-  grid-column: 1;
   background-color: #FFFFFF;
+  grid-column: 1;
   height: 900px;
 }
 
 .form-head {
+  background-color: #6C7789;
+  color: #FFFFFF;
   display: grid;
   grid-template-columns: 31.5% 1fr;
   height: 75px;
-  color: #FFFFFF;
-  background-color: #6C7789;
 }
 
 .edit-btn {
-  height: 3em;
-  width: 6em;
+  background-color: #7A88A3;
+  border: transparent;
+  color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
   font-weight: 900;
-  color: #FFFFFF;
-  background-color: #7A88A3;
-  border: transparent;
+  height: 3em;
+  width: 6em;
 }
 
 .left-column--form {
-  grid-column: 1;
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  grid-column: 1;
+  justify-content: flex-start;
   margin-left: 30px;
 }
 
 .right-column--form {
-  grid-column: 2;
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
+  grid-column: 2;
+  justify-content: flex-start;
 }
 
 .main-form {
@@ -540,38 +551,38 @@ h1 {
 }
 
 .form-section {
+  border-bottom: solid #6F7E95 1px;
   display: grid;
   grid-template-columns: 30% 1fr;
   height: 75px;
   margin: 0px 30px 0px 30px;
-  border-bottom: solid #6F7E95 1px;
 }
 
 .tall-form--section {
+  border-bottom: solid #6F7E95 1px;
   display: grid;
   grid-template-columns: 30% 1fr;
   height: 185px;
-  border-bottom: solid #6F7E95 1px;
   margin: 0px 30px 0px 30px;
   text-overflow: wrap;
 }
 
 .tall-form--left {
-  display: flex;
   align-items: flex-start;
+  display: flex;
   padding-top: 1rem;
 }
 
 .tall-form--right {
-  grid-column: 2;
-  display: flex;
   align-items: flex-start;
+  display: flex;
+  grid-column: 2;
   padding-top: 1rem;
 }
 
 .hiring-lead {
-  height: 44px;
   border-radius: 49px;
+  height: 44px;
   width: 43px;
 }
 
@@ -579,11 +590,15 @@ h1 {
   margin-left: 10px;
 }
 
+
+/*===================
+==styling share/social==
+=====================*/
+
 .social-section {
   grid-column: 2;
   margin-right: 50px;
   height: 900px;
-/*  overflow: scroll;*/
 }
 
 .quarter-section {
@@ -600,14 +615,14 @@ h1 {
 }
 
 .social {
+  background-color: #4A6FC0;
+  border: 0px;
   display: grid;
   grid-template-columns: 30% 1fr;
-  width: 100%;
   height: 55px;
-  padding: 0px;
-  border: 0px;
-  background-color: #4A6FC0;
   margin-bottom: 17px;
+  padding: 0px;
+  width: 100%;
 }
 
 .twitter-btn {
@@ -619,50 +634,50 @@ h1 {
 }
 
 .icon-div {
-  display: flex;
-  justify-content: flex-start;
-  grid-column: 1;
-  padding-left: 29px;
   color: #FFFFFF;
+  display: flex;
   font-size: 17px;
+  grid-column: 1;
+  justify-content: flex-start;
+  padding-left: 29px;
 }
 
 .name-div {
-  display: flex;
-  justify-content: flex-start;
-  grid-column: 2;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
-  font-size: 14px;
   color: #FFFFFF;
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  grid-column: 2;
+  justify-content: flex-start;
 }
 
 .link-p {
+  color: #6C7789;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
-  color: #6C7789;
   width: 100%;
 }
 
 .job-url {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: #FFFFFF;
+  color: #6C7789;
+  display: flex;
+  justify-content: space-between;
   height: 50px;
   padding-left: 10px;
-  color: #6C7789;
   white-space: nowrap;
 }
 
 .copy-btn {
-  height: 50px;
-  border: transparent;
-  width: 70px;
   background-color: #49BBBF;
+  border: transparent;
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
+  height: 50px;
+  width: 70px;
 }
 
 .widget {
@@ -673,6 +688,10 @@ h1 {
   padding-top: 2px;
 }
 
+
+/*============================
+=============Media Query======
+==============================*/
 
 @media screen and (max-width: 1186px) {
   body {
@@ -696,16 +715,16 @@ h1 {
   }
 
   .graph-section {
-    height: 626px;
     display: unset;
+    height: 626px;
     padding-top: 0px;
   }
 
   .bars {
-  margin-right: 3px;
-  margin-left: 5%;
-  width: 90%;
-  height: 329px;
+    height: 329px;
+    margin-left: 5%;
+    margin-right: 3px;
+    width: 90%;
   }
 
   .left-circ {
@@ -736,19 +755,19 @@ h1 {
   }
 
   .social {
-    width: 90%;
     margin-top: 15px;
     margin-left: 10%;
+    width: 90%;
   }
 
   .border-btm {
-    width: 90%;
     margin-left: 10%;
+    width: 90%;
   }
 
   .upload {
-    width: 90%;
     margin-left: 10%;
+    width: 90%;
   }
 }
 
@@ -765,15 +784,15 @@ h1 {
 
   .nav-btn {
   background-color: #FFFFFF;
+  border-color: transparent;
   border-style: solid;
   border-width: 2px;
-  border-color: transparent;
-  height: 53px;
-  width: 6rem;
+  color: #6C7789;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;
   font-size: .8em;
-  color: #6C7789;
+  height: 53px;
+  width: 6rem;
   }
 
   header {
@@ -782,9 +801,9 @@ h1 {
   }
 
   .search-icon-box {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .search-box {
@@ -792,7 +811,6 @@ h1 {
   }
 
   .top-section {
-    /*padding-top: 10px;*/
     grid-template-columns: 1fr 235px;
   }
 
@@ -804,8 +822,8 @@ h1 {
 
 @media screen and (max-width: 592px) {
   .service-rep {
-    margin-top: 0px;
     font-size: 1em;
+    margin-top: 0px;
   }
 
   .top-section {
@@ -848,7 +866,7 @@ h1 {
     display: none;
   }
   .resize {
-  display: none;
+    display: none;
   }
 
   .top-section {
@@ -886,7 +904,7 @@ h1 {
     font-size: .7em;
   }
 
-    .nav-section {
+  .nav-section {
     padding-left: 0px;
   }
 }
