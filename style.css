@@ -476,6 +476,10 @@ h1 {
   height: 29px;
 }
 
+.break-btn:hover {
+  opacity: 1;
+}
+
 .bottom-section {
   display: grid;
   grid-template-columns: 1fr 31%;
@@ -868,6 +872,10 @@ h1 {
 @media screen and (max-width: 470px){
   .bro {
     display: none;
+  }
+
+  .bars {
+    height: 235px;
   }
 
   .left-column--form {

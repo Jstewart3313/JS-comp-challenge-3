@@ -10,87 +10,87 @@
 <body>
   <aside class='aside' role='aside'>
     <section class='profile-aside'>
-      <img class='profile-pic' src='assets/profile-pic.jpeg'>
+      <img class='profile-pic' aria-label='profile picture' src='assets/profile-pic.jpeg'>
       <p class='name-text'>Newton Barley <i class="fas fa-angle-down down"></i></p>
     </section>
-    <section class='aside-sub'>
-      <p class='aside-title'>Main</p>
+    <section class='aside-sub' aria-label='aside menu section'>
+      <p class='aside-title' aria-label='aside main menu'>Main</p>
       <ul>
-        <li><i class="fas fa-home aside-icon"></i>Home</li>
-        <li><i class="fas fa-suitcase aside-icon"></i>Job</li>
-        <li><i class="fas fa-file aside-icon"></i>Resume</li>
-        <li><i class="fas fa-clipboard aside-icon"></i>Tasks</li>
-        <li><i class="fas fa-calendar-alt aside-icon"></i>Calendar</li>
+        <li aria-label='home link'><i class="fas fa-home aside-icon"></i>Home</li>
+        <li aria-label='job link'><i class="fas fa-suitcase aside-icon"></i>Job</li>
+        <li aria-label='resume link'><i class="fas fa-file aside-icon"></i>Resume</li>
+        <li aria-label='task link'><i class="fas fa-clipboard aside-icon"></i>Tasks</li>
+        <li aria-label='calendar link'><i class="fas fa-calendar-alt aside-icon"></i>Calendar</li>
       </ul>
     </section>
     <section class='aside-sub'>
-      <p class='aside-title'>Admin</p>
+      <p class='aside-title' aria-label='aside admin section'>Admin</p>
       <ul>
-        <li><i class="fas fa-user-friends aside-icon"></i>Users</li>
-        <li><i class="fas fa-map-marker-alt aside-icon"></i>Locations</li>
-        <li><i class="fas fa-code-branch aside-icon"></i>Workflows</li>
+        <li aria-label='users link'><i class="fas fa-user-friends aside-icon"></i>Users</li>
+        <li aria-label='locations link'><i class="fas fa-map-marker-alt aside-icon"></i>Locations</li>
+        <li aria-label='workflow link'><i class="fas fa-code-branch aside-icon"></i>Workflows</li>
         <li class='highlight'><i class="fas fa-clipboard-list aside-icon"></i>Job Boards</li>
-        <li><i class="fas fa-share-square aside-icon"></i>Social</li>
+        <li aria-label='social link'><i class="fas fa-share-square aside-icon"></i>Social</li>
       </ul>
     </section>
     <section class='aside-sub'>
-      <p class='aside-title'>Categories</p>
+      <p class='aside-title' aria-label='aside category section'>Categories</p>
       <ul>
-        <li><i class="fas fa-check-square aside-icon yellow"></i>Administrative</li>
-        <li><i class="fas fa-square aside-icon blue"></i>Design</li>
-        <li><i class="fas fa-square aside-icon red"></i>Executive</li>
-        <li><i class="fas fa-square aside-icon green"></i>Resources</li>
+        <li aria-label='aside administrative section'><i class="fas fa-check-square aside-icon yellow"></i>Administrative</li>
+        <li aria-label='aside design section'><i class="fas fa-square aside-icon blue"></i>Design</li>
+        <li aria-label='aside executive section'><i class="fas fa-square aside-icon red"></i>Executive</li>
+        <li aria-label='aside resources section'><i class="fas fa-square aside-icon green"></i>Resources</li>
       </ul>
     </section>
-    <section class='rest-of-aside'>
+    <section class='rest-of-aside' aria-label='blank section'>
     </section>
   </aside>
-<main class='main'>
+<main class='main' aria-label='main section'>
   <header>
-    <section class='nav-box'>
+    <section class='nav-box' aria-label='collapse and expand aside menu'>
       <i class="fas fa-caret-left lefty"></i>
       <i class="fas fa-bars aside-icon hamburg"></i> 
     </section>
     <section class='search-icon-box'>
       <img class='search-icon' src='assets/search.svg'>
     </section>
-    <input type='text' placeholder='Search for a job, task, or resume' class='search-box'>
+    <input type='text' aria-label='search website' placeholder='Search for a job, task, or resume' class='search-box'>
     </input>
-    <section class='nav-box'>
+    <section class='nav-box' aria-label='friends tab'>
       <i class="fas fa-user-friends friends"></i>
     </section>
-    <section class='nav-box'>
+    <section class='nav-box' aria-label='calendar tab'>
       <i class="fas fa-calendar-alt friends"></i>
     </section>
-    <section class='nav-box'>
+    <section class='nav-box' aria-label='event tab'>
       <i class="fas fa-ellipsis-h friends"></i>
     </section>
   </header>
-  <section class='top-section'>
+  <section class='top-section' aria-label='heading section'>
     <section class='main-h1'>
     <h1 class='service-rep'>Customer Service Representative</h1>
     <p class='location'><i class="fas fa-map-marker-alt main-location"></i> San Francisco, CA <span class='preview-dot'>'</span><span class='preview'>Preview this post</span></p>
     </section>
     <section class='btn-section'>
-      <button class='open-btn txt-bold'><i class="fas fa-circle green-dot resize"></i>open</button>
-      <button class='round-btn resize'><i class="fas fa-bookmark"></i></button>
-      <button class='round-btn resize'><i class="fas fa-pencil-alt"></i></button>
-      <button class='round-btn resize'><i class="fas fa-gift"></i></button>
+      <button aria-label='status open' class='open-btn txt-bold'><i class="fas fa-circle green-dot resize"></i>open</button>
+      <button aria-label='bookmark' class='round-btn resize'><i class="fas fa-bookmark"></i></button>
+      <button aria-label='edit' class='round-btn resize'><i class="fas fa-pencil-alt"></i></button>
+      <button aria-label='present' class='round-btn resize'><i class="fas fa-gift"></i></button>
     </section>
   </section>
   <section class='nav-section'>
-    <button class='nav-btn border'>Summary</button>
-    <button class='nav-btn app'>Applicants</button>
-    <button class='nav-btn job'>Job Boards</button>
-    <button class='nav-btn int'>Interviews</button>
-    <button class='nav-btn act'>Activity</button>
-    <button class='nav-btn bro'>Broadcast</button>
-    <button class='nav-btn not'>Notifications</button>
+    <button aria-label=' summary tab' class='nav-btn border'>Summary</button>
+    <button aria-label='applicants tabs' class='nav-btn app'>Applicants</button>
+    <button aria-label='job board tab'class='nav-btn job'>Job Boards</button>
+    <button aria-label='interviews tab' class='nav-btn int'>Interviews</button>
+    <button aria-label='activitys tab' class='nav-btn act'>Activity</button>
+    <button aria-label='broadcast tab' class='nav-btn bro'>Broadcast</button>
+    <button aria-label='notifications' class='nav-btn not'>Notifications</button>
   </section>
-  <section class='graph-section'>
+  <section aria-label='analytics sections' class='graph-section'>
     <section class='circle-section'>
   <div class="flex-wrapper">
-    <div class="single-chart left-circ">
+    <div aria-label=' applicants circle chart' class="single-chart left-circ">
       <svg viewbox="0 0 36 36" class="circular-chart orange">
         <path class="circle-bg"
         d="M18 2.0845
@@ -105,7 +105,7 @@
         <text x="18" y="23" class="percentage"> APPLICANTS</text>
       </svg>
     </div>
-    <div class="single-chart">
+    <div aria-label='interviews circle chart' class="single-chart">
       <svg viewbox="0 0 36 36" class="circular-chart green">
         <path class="circle-bg"
         d="M18 2.0845
@@ -120,7 +120,7 @@
         <text x="18" y="23" class="percentage"> INTERVIEWS</text>
       </svg>
     </div>
-    <div class="single-chart right-circ">
+    <div aria-label='forwards circle chart' class="single-chart right-circ">
       <svg viewbox="0 0 36 36" class="  circular-chart blue">
         <path class="circle-bg"
         d="M18 2.0845
@@ -132,7 +132,7 @@
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"/>
         <text x="18" y="17" class="percentage number">90</text>
-        <text x="18" y="23" class="percentage"> FORWARD</text>
+        <text x="18" y="23" class="percentage">FORWARD</text>
       </svg>
     </div>
 </div>
@@ -140,7 +140,7 @@
         Totals - out of 230 views
     </button>
     </section>
-    <section class='bar-graph--section'>
+    <section aria-label='bar graph of applicants per day' class='bar-graph--section'>
       <img src='assets/bar-graph.png' class='bars'>
       <button class='bar-graph--btn bar-btn'>
         Applicants/Day
@@ -148,64 +148,64 @@
     </section>
   </section>
   <section class='page-break'>
-      <span><button class='break-btn'><i class="fas fa-chevron-up"></i></button></span>
+      <span><button aria-label='page break collapse and expand' class='break-btn'><i class="fas fa-chevron-up"></i></button></span>
   </section>
-  <section class='bottom-section'>
+  <section aria-label='form and social section' class='bottom-section'>
     <form class='description-form'>
       <section class=' form-head'>
-        <div class='left-column--form'>Job Description
+        <div aria-label='job description label' class='left-column--form'>Job Description
         </div>
         <div class='right-column--form'>
-          <button class='edit-btn'><i class="fas fa-pencil-alt"></i>
+          <button aria-label='edit job description' class='edit-btn'><i class="fas fa-pencil-alt"></i>
           Edit
         </button>
         </div>
       </section>
       <section class='form-section'>
-        <div class='left-column--form  main-form'>
+        <div aria-label='position title' class='left-column--form  main-form'>
           Position Title
         </div>
-        <div class='right-column--form main-form main-right'>
+        <div aria-label='the title of the job' class='right-column--form main-form main-right'>
           Customer Service Representative
         </div>
       </section>
       <section class='form-section'>
-        <div class='left-column--form  main-form'>
+        <div aria-label='location of the job' class='left-column--form  main-form'>
           Location
         </div>
-        <div class='right-column--form main-form main-right'>
+        <div aria-label='location of the listed job' class='right-column--form main-form main-right'>
           Denver, Co
         </div>
       </section>
       <section class='form-section'>
-        <div class='left-column--form  main-form'>
+        <div aria-label='employment type' class='left-column--form  main-form'>
           Employment Type
         </div>
-        <div class='right-column--form main-form main-right'>
+        <div aria-label='describe the amount of time spent working' class='right-column--form main-form main-right'>
           Full-Time
         </div>
       </section>
       <section class='form-section'>
-        <div class='left-column--form  main-form'>
+        <div aria-label='status' class='left-column--form  main-form'>
           Status
         </div>
-        <div class='right-column--form main-form main-right'>
+        <div aria-label='weather the job is still open or not' class='right-column--form main-form main-right'>
           Open
         </div>
       </section>
       <section class='form-section'>
-        <div class='left-column--form  main-form'>
+        <div aria-label='experience' class='left-column--form  main-form'>
           Experience
         </div>
-        <div class='right-column--form main-form main-right'>
+        <div aria-label='how much experience prefered' class='right-column--form main-form main-right'>
           Mid-Level
         </div>
       </section>
       <section class='tall-form--section'>
-        <div class='left-column--form  main-form tall-form--left'>
-          Experience
+        <div aria-label='description' class='left-column--form  main-form tall-form--left'>
+          Description
         </div>
-        <div class='main-form main-right tall-form--right'>
+        <div aria-label='describe the job' class='main-form main-right tall-form--right'>
           Well, yeah. But I was gonna tell you, I'm tired of being told like, 'Oh,
 you can't talk about that. You can't talk about that.' Bull s.h.i.t. ... uh
 ....ancient alien gods pre-colonial aerodynamics star gates nazca lines, elongated skull sumerian texts giorgio vymaanika-shaastra legendary times, weightless sanskrit spaceships easter island sightings alien. the vedas puma punku megoliths petroglyph , otherworldly visitors puma punku vortex evidence technology, mayan inter-dimensional the vedas . 
