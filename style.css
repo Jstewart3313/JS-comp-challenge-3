@@ -878,33 +878,29 @@ h1 {
 
 
 @media screen and (max-width:562px) {
-  .gone {
-    display: none;
-  }
 
   .not {
     display: none;
   }
-  .resize {
-    display: none;
-  }
 
   .top-section {
-    grid-template-columns: 1fr 100px;
+    /*grid-template-columns: 1fr 100px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
   }
 
   .btn-section {
-    width: 70px;
+    grid-column: 1;
+    width: 238px;
   }
 
     .nav-section {
     padding-left: 0px;
   }
 
-  .open-btn {
-    margin-top: 82px;
-    line-height: unset;
-  }
 }
 
 @media screen and (max-width: 470px){
