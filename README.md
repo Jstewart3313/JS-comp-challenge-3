@@ -5,8 +5,8 @@ responsible decisions creating a tablet and mobile version.
 
 
 
-! [Original Comp] (comp3.jpg)
+![Original Comp](comp3.jpg)
 
 
 
-! [My version] (comp-3-mine)
+![My version](comp-3-mine)
