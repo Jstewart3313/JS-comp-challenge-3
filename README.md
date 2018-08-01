@@ -9,4 +9,4 @@ responsible decisions creating a tablet and mobile version.
 
 
 
-![My version](Comp-3-mine.png)
+![My version](my-screenshot.png)
