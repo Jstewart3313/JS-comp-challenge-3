@@ -76,6 +76,17 @@ ul {
   color: #FFFFFF;
 }
 
+.aside-tab {
+  border-color: #30394A ;
+  border-left: transparent;
+}
+
+.aside-tab:hover {
+  background-color: #30394A;
+  border-left: solid 3px #16A4FA;
+  color: #FFFFFF;
+}
+
 .aside-icon {
   height:15px;
   margin-right: 10px;
@@ -167,9 +178,9 @@ header {
 }
 
 .search-box {
-  border-color: #EDF2F6;
-  border-left: none;
   border-style: solid;
+  border-left: none;
+  border-color: #EDF2F6;
   border-width: 1px;
   color: #6C7789;
   font-size: 1.25em;
@@ -525,6 +536,10 @@ h1 {
   width: 6em;
 }
 
+.edit-btn:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
 .left-column--form {
   align-items: center;
   display: flex;
@@ -623,6 +638,10 @@ h1 {
   margin-bottom: 17px;
   padding: 0px;
   width: 100%;
+}
+
+.social:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .twitter-btn {
