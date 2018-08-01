@@ -51,9 +51,9 @@ body {
 .aside-sub {
   border-bottom: 2px;
   border-color: #343F51;
-  border-left: none;
-  border-right: none;
   border-style: solid;
+  border-right: none;
+  border-left: none;
   border-top: ;
   line-height: 2.5rem;
   padding-top: .5rem;
@@ -61,6 +61,7 @@ body {
 
 .rest-of-aside {
   height: 40rem;
+  border: none;
 }
 
 
